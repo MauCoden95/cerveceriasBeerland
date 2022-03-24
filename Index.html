@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Link Font Awesome-->
+    <script src="https://kit.fontawesome.com/7483adbd94.js" crossorigin="anonymous"></script>
+
+
+    <!--CDN Animation On Scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--Link Archivo CSS-->
+    <link rel="stylesheet" href="Styles.css">
+
+
+
+    <link rel="shortcut icon" href="./IMG/Favicon.png" type="image/x-icon">
+    <title>Beerland</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light fs-2" href="#">Beerland <i class="fas fa-beer text-warning"></i></a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="Index.html">Inicio</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#about">Nosotros</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#location">Sucursales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#products">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#contact">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Newsletter" aria-label="Search">
+                  <button class="btn btn-warning btn-warning-outline-success" type="submit">Suscribite</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+
+
+
+          <!--Slider-->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./IMG/Slider/Slider1.jpg" class="d-block w-100" alt="Cerveza" dat>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./IMG/Slider/Slider2.jpg" class="d-block w-100" alt="Hamburguesa con fritas">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./IMG/Slider/Slider3.jpg" class="d-block w-100" alt="Pizza">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./IMG/Slider/Slider4.jpg" class="d-block w-100" alt="Sirviendo">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./IMG/Slider/Slider5.jpg" class="d-block w-100" alt="Asado">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+
+          <!--About-->
+          <section class="container-fluid" id="about">
+            <h2 class="fs-1 text-center my-5 pt-5"><span class="fas fa-users"></span> Sobre Nosotros</h2>
+
+           <div class="row w-75 mx-auto">
+             <div class="col-md-6" data-aos="fade-right">
+                  <p>
+                    Cervecerías Beerland se conforma por un grupo de amigos emprendedores, que tuvieron la idea de producir cerveza artesanal sin aditivos
+                    ni conservantes. Elaboramos nuestra propia cerveza artesanal desde el año 2015 en el corazón de palermo y a partir de allí hemos transformado un 
+                    hobby en una forma de vida.
+                  </p>
+
+                  <p>
+                    En 2017 decidimos expandir el negocio, inaugurando sucursales en los barrios porteños de Nuñez y Saavedra, y en 2019 en las localidades bonaerenses de
+                    San Isidro, San Fernando y Pilar.
+                  </p>
+
+                  <p>
+                      Tenemos una amplia variedad de opciones para todos los gustos:
+                  </p>
+
+                  <ul>
+                      <li>Golden Ale</li>
+                      <li>Alden Ale</li>
+                      <li>Stout</li>
+                      <li>Pilsen Lager</li>
+                      <li>Honey Beer</li>
+                  </ul>
+             </div>
+
+             <div class="col-md-6" data-aos="fade-left">
+               <img class="w-75" src="./IMG/Amigos.jpg" alt="Amigos">
+             </div>
+           </div>
+          </section>
+
+
+
+
+
+
+
+
+
+
+          <!--Location-->
+          <section class="container-fluid" id="location">
+                <h2 class="fs-1 text-center my-5"><span class="fas fa-location-arrow"></span> Sucursales</h2>
+                
+                <div class="container-fluid branchs">
+                      <div class="row text-center">
+                          <div class="branch col-md-4 border border-warning branch-palermo" data-aos="flip-left">
+                            <div class="branch-info d-flex flex-column justify-content-center align-items-center">
+                              <h3>Palermo</h3>
+                              <p><i class="fas fa-map-marker-alt"></i> Av. Juramento 7000</p>
+                              <p><i class="fas fa-phone"></i> (011)4285-5203</p>
+                            </div>
+                          </div>
+
+
+                          <div class="branch col-md-4 border border-warning branch-nuñez" data-aos="flip-left">
+                            <div class="branch-info d-flex flex-column justify-content-center align-items-center">
+                              <h3>Nuñez</h3>
+                              <p><i class="fas fa-map-marker-alt"></i> Av. Del Libertador 7000</p>
+                              <p><i class="fas fa-phone"></i> (011)4471-3643</p>
+                            </div>
+                          </div>
+
+
+                          <div class="branch col-md-4 border border-warning branch-saavedra" data-aos="flip-left">
+                            <div class="branch-info d-flex flex-column justify-content-center align-items-center">
+                              <h3>Saavedra</h3>
+                              <p><i class="fas fa-map-marker-alt"></i> Av. Dr. Ricardo Balbin 6000</p>
+                              <p><i class="fas fa-phone"></i> (011)4745-7614</p>
+                            </div>
+                          </div>
+                      </div>
+
+
+                      <div class="row text-center">
+                        <div class="branch col-md-4 border border-warning branch-sanisidro" data-aos="flip-left">
+                          <div class="branch-info d-flex flex-column justify-content-center align-items-center">
+                            <h3>San Isidro</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Av. Juan Bautista De La Salle 250</p>
+                            <p><i class="fas fa-phone"></i> (011)4465-7781</p>
+                          </div>
+                        </div>
+
+
+                        <div class="branch col-md-4 border border-warning branch-sanfernando" data-aos="flip-left">
+                          <div class="branch-info d-flex flex-column justify-content-center align-items-center">
+                            <h3>San Fernando</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Sobremonte 3500</p>
+                            <p><i class="fas fa-phone"></i> (011)4610-1760</p>
+                          </div>
+                        </div>
+
+
+                        <div class="branch col-md-4 border border-warning branch-pilar" data-aos="flip-left">
+                          <div class="branch-info d-flex flex-column justify-content-center align-items-center">
+                            <h3>Pilar</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Musladini 6000</p>
+                            <p><i class="fas fa-phone"></i> (0230)4813-5138</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                
+          </section>
+
+
+
+
+
+          <!--Products-->
+          <section class="container-fluid" id="products">
+            <h2 class="fs-1 text-center my-5"><i class="fas fa-glass-whiskey"></i> Productos</h2>
+
+            <div class="w-100 products mx-auto d-flex justify-content-around flex-wrap">
+              <div class="card mb-3" id="card" data-aos="zoom-in">
+                <img src="./IMG/Productos/Barriles.jpg" class="card-img-top" alt="Barriles">
+                <div class="card-body">
+                  <h3 class="text-center">Barriles</h3>
+                  <p class="card-text text-center">Tenemos a disposicion barriles retornables de madera y acero. Su capacidad varía entre 20 y 50 litros</p>
+                </div>
+              </div>
+
+              <div class="card mb-3" id="card" data-aos="zoom-in">
+                <img src="./IMG/Productos/Botellas.jpg" class="card-img-top" alt="Barriles">
+                <div class="card-body">
+                  <h3 class="text-center">Botellas</h3>
+                  <p class="card-text text-center">Amplia disponibilidad en botellas de vidrio, con capacidad para 500cc y 1 litro</p>
+                </div>
+              </div>
+
+              <div class="card mb-3" id="card" data-aos="zoom-in">
+                <img src="./IMG/Productos/Choperas.jpg" class="card-img-top" alt="Barriles">
+                <div class="card-body">
+                  <h3 class="text-center">Choperas</h3>
+                  <p class="card-text text-center">Nuestras choperas son el producto ideal para cualquier evento, con una capacidad de hasta 20 lts</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+
+
+
+          <!--Contact-->
+          <section class="container-fluid" id="contact">
+            <h2 class="fs-1 text-center my-5 mb-5"><i class="fas fa-user"></i> Contacto</h2>
+              <div class="social-bar w-100 d-flex justify-content-between mx-auto ">
+                    <a href="#" class="p-3"><span class="fab fa-instagram fs-1"></span> Seguinos en Instagram</a>
+                    <a href="#" class="p-3"><span class="fab fa-whatsapp fs-1"></span> Consultanos Por Whatsapp</a>
+                    <a href="#" class="p-3"><span class="fas fa-envelope fs-1"></span> Mandanos un mensaje</a>
+              </div>
+
+              <h4 class="fs-3 text-center my-5">O podés enviarnos un mensaje por este formulario</h4>
+
+              <form action="" class="w-75 mx-auto mb-4" id="form">
+                    
+                    <label for="name" class="d-block text-center">Nombre</label>
+                    <input type="text" class="d-block  w-100  p-2" name="name" autocomplete="off" id="ipt-name">
+                    <span class="name-error text-danger mb-5"></span>
+
+                    <label for="mail" class="d-block mt-5  text-center">Correo Electrónico</label>
+                    <input type="text" class="w-100 p-2" name="mail" autocomplete="off" id="ipt-mail">
+                    <span class="mail-error text-danger mb-5"></span>
+
+                    <label for="phone" class="d-block mt-5  text-center">Teléfono Celular</label>
+                    <input type="text" class="w-100 p-2" name="phone" autocomplete="off" id="ipt-phone">
+                    <span class="phone-error text-danger mb-5"></span>
+
+                    <label for="message" class="d-block mt-5  text-center">Mensaje</label>
+                    <textarea name="message" class="w-100  p-2" cols="30" rows="10" autocomplete="off" id="ipt-message"></textarea>
+                    <span class="message-error text-danger mb-5"></span>
+
+                    <button class="w-50 d-block fs-4 mt-3 mx-auto" type="submit" id="submit">Enviar</button>
+              </form>
+          </section>
+<!--d-flex bg-danger justify-content-between align-items-center flex-wrap-->
+
+
+
+
+
+
+          <!--Footer-->
+          <footer class="container-fluid d-flex justify-content-center align-items-center" id="footer">
+              <p class="">Cervecerias Beerland - 2022 &copy; Todos los derechos reservados</p>
+          </footer>
+
+
+
+    <script src="Scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
